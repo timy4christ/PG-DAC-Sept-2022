@@ -1,0 +1,28 @@
+===============================================================
+Ques: Identify valid and invalid statements for the following : 
+public static void main(String[] args)
+=================================================================
+1. public static void main(String []args) : valid
+
+2. public static void main(String args[]) : valid
+
+3. public static void main(String... args) : valid
+
+4. static public void main(String[] args) : valid
+
+5. public void main(String[] args) : 
+	-Compiles fine. Runtime Error
+
+6. static void main(String[] args) :
+	-Compiles fine. Runtime Error
+
+7. public void static main(String[] args) : INVALID
+
+8. abstract public static void main(String[] args) : INVALID
+	-error: illegal combination of modifiers: abstract and static
+
+9. public static final void main(String[] args) : valid
+
+10. final public static void main(String[] args) : valid
+
+11. final strictfp public static void main(String[] args) : valid  

@@ -1,0 +1,17 @@
+1) What is an algorithm? What is the need for an algorithm? 
+2) What are the Asymptotic Notations? Mention what are the types of Notation used for Time Complexity?
+3) What is Divide and Conquer algorithms?
+4) Give some examples of Divide and Conquer algorithm? 
+5) What Are The Criteria Of Algorithm Analysis?
+6)With suitable example explain time complexity and space complexity 
+7) Explain what is the difference between best case scenario,average case and worst case scenario of an algorithm with suitable example?
+8)What is sorting state different techniques of sorting
+9)State the difference between sorting techniques
+10)Which sorting algorithm will you prefer and why and when?
+Programs
+1)WAP to accept an array and sort it using Bubble Sort technique
+2) WAP to accept an array and sort it using Selection Sort technique
+3) WAP to accept an array and sort it using Insertion Sort technique
+4) WAP to accept an array and sort it using Merge Sort technique
+5)WAP to accept an array and sort it using Quick Sort technique
+6) WAP to accept an array and sort it using Heap Sort technique

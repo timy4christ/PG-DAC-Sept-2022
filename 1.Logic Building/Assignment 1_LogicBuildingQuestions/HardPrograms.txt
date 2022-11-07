@@ -1,0 +1,5 @@
+1. Prime factors of a given number
+2. lcm of two given number
+3. lcm of two given number using Prime Factors method
+4. GCD of two given numbers
+5. addition without using arithmetic operator

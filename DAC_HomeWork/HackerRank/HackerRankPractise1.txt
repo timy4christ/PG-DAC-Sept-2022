@@ -1,0 +1,205 @@
+1. Largest among the three
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int z = sc.nextInt();
+        
+        if ( x > y && x > z )
+            System.out.println(x);
+        if ( y > z )
+            System.out.println(y);
+        else
+            System.out.println(z);
+    }
+}
+
+2. Sum of all numbers 
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int c=0, sum=0, i=0;
+        
+        while( c < n ){
+            if(i % 3 == 0){
+                sum += i;
+            }
+            c++;
+            i += 2;
+        }
+        
+        System.out.println(sum);
+    }
+}
+
+3. Armstrong Numbers
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        int count=0, sum=0;
+        int temp;
+        int digit;
+               
+        int n = sc.nextInt();
+        temp = n;
+        
+        while( temp != 0 ){
+            count++;
+            temp /= 10;
+        }
+        
+        temp = n;
+        
+        while( temp != 0 ){
+            digit = temp % 10;
+            sum += (int)Math.pow(digit,count);
+            temp /= 10;
+        }
+        
+        System.out.println(sum == n ? 1 : 0);
+    }
+}
+
+4. Highest and Average Marks
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        int n, num, sum=0, max=0;
+        double avg;
+        
+        n = sc.nextInt();
+        
+        for( int i=1; i<=n; i++ ) {
+            num = sc.nextInt();
+            sum += num;
+            if( num > max )
+                max = num;
+        }
+        
+        avg = sum / n;
+        
+        System.out.println(max);
+        System.out.println(avg);
+    }
+}
+
+5. Call Method
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Student st = new Student();
+        st.print();
+    }
+}
+class Student{
+    void print(){
+        System.out.print("Hi! I am class STUDENT.");
+    }
+}
+
+6. Call and Display Method
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Student st = new Student();
+        School sc = new School();
+
+        st.print();
+        sc.print();
+        
+    }
+}
+class Student{
+    void print(){
+        System.out.println("Hi! I am class STUDENT.");
+    }
+}
+class School{
+    void print(){
+        System.out.println("Hi! I am class SCHOOL.");
+    }
+}
+
+7. Call and Create Method
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Question.studentMethod();   
+    }
+}
+class Question{
+    static void studentMethod(){
+        System.out.print("Well Done!");
+    }
+}
+
+8. Constructor
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    Solution(){
+        System.out.println("You got nothing.");
+    }
+    
+    Solution(String str){
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Solution s1 = new Solution();
+        Solution s2 = new Solution("You got 10 for an MCQ");
+    
+    }
+}
+
+10. Looping with Numbers
+
+for i in {1..50}
+do
+    echo $i
+done
