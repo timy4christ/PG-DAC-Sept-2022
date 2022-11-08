@@ -1,7 +1,5 @@
 # PG-DAC-Sept-2022
 For submission of Assignments and Course Works
-# PG-DAC-Sept-2022
-For submission of Assignments and Course Works
 ## Assignments Uploaded during PG-DAC Sept 2022
 <hr>
 
