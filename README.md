@@ -7,5 +7,5 @@ For submission of Assignments and Course Works
 2. Assignment 2: Pattern Type Questions
 3. Assignment 3-6: OOPJ
 4. Lab Practise Assigmnets : DSA
----->Extra:: Diwali Holiday Homework<-----
 5. DBT
+6. Extra:: Diwali Holiday Homework
