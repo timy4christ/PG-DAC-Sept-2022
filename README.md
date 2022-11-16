@@ -7,6 +7,7 @@ For submission of Assignments and Course Works
 --Logic Building Questions
 --Pattern Type Questions
 2. Assignment 2: OOPJ
-3. Lab Practise Assigmnets : DSA
-4. DBT
-5. Extra:: Diwali Holiday Homework
+3. Assignment: DSA
+4. Assignment: DBT
+5. Assignment: SDM
+6. Extra:: Diwali Holiday Homework
